@@ -1,8 +1,8 @@
 import ReactDom from "react-dom/client";
 import React from 'react';
 
-import './Index.css'
-import App from "./App";
+
+import App from "./App.js";
 
 const root = ReactDom.createRoot(document.getElementById("root"));
 root.render(

@@ -1,27 +1,19 @@
-
-
-
-
-
-
-
-
 import React from 'react'
-import "./App.css"
-import About from "./About";
-import Contact from "./Contact";
-import Home from './Home';
-import Services from './Services';
+import About from './About'
+import Contact from './Contact'
+import Services from './Services'
+import Home from './Home'
+
 
 
 const App = () => {
   return (
-    <div>
-        <Home/>
-        <About/>
-        <Services/>
-        <Contact/>
-    </div>
+    <>
+    <Home></Home>
+    <About></About>
+    <Services></Services>
+    <Contact></Contact>
+    </>
   )
 }
 
