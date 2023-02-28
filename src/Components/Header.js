@@ -5,11 +5,12 @@ import NavBar from './NavBar';
 const Header = () => {
   return (
     <Header>
-       <NavLink to = "/">
-        <img src="./Images/logo192.png" alt="logo" />
-       
-       </NavLink>
-       <NavBar/>
+  <NavLink to="/">
+    <img src="./images/logo.png" alt ="logo" /> 
+
+  </NavLink>
+  <NavBar/>
+
     </Header>
   )
 }
