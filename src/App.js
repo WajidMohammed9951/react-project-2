@@ -6,8 +6,10 @@ import Home from './Home'
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Footer from './Components/Footer'
 import Header from './Components/Header'
-import NavBar from './Components/NavBar'
+// import NavBar from './Components/NavBar'
 import { ThemeProvider } from "styled-components";
+
+
 
 const App = () => {
   const theme = {
@@ -30,9 +32,10 @@ const App = () => {
     },
     media: { mobile: "768px", tab: "998px" },
   };
-}
 
-const App = () => {
+
+
+
   return (
     <ThemeProvider theme={theme}>
    <BrowserRouter>
