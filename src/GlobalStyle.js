@@ -7,5 +7,7 @@ export const GlobalStyle = createGlobalStyle
     padding:0;
     box-sizing:border-box;
     font-family: 'Work Sans', sans-serif;
+    font size: 62.5% rem;
+    overflow-x: hidden;     
 }
 `;
