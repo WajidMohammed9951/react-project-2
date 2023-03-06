@@ -8,6 +8,7 @@ import Footer from './Components/Footer'
 import Header from './Components/Header'
 // import NavBar from './Components/NavBar'
 import { ThemeProvider } from "styled-components";
+import { GlobalStyle } from './GlobalStyle'
 
 
 
@@ -38,6 +39,7 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
+      <GlobalStyle/>
    <BrowserRouter>
    <Header/>
    <Routes>

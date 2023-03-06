@@ -6,18 +6,22 @@ import styled from 'styled-components';
 const Header = () => {
   return (
     <MainHeader>
+      <div className='title'>WAJID VIEW</div>
    <NavBar/>  
    </MainHeader>
   )
 }
 const MainHeader = styled.header`
 
-padding: 0 4.8rem;
-height: 10rem;
+padding:1.5rem 1.5rem;
+// height: 10rem;
 background-color: ${({ theme }) => theme.colors.bg};
 display: flex;
-justify-content: flex-end;
+justify-content: space-between;
 align-items: center;
+
+.title {
+}
 `
 
 
