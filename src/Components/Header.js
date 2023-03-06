@@ -14,7 +14,6 @@ const Header = () => {
 const MainHeader = styled.header`
 
 padding:1.5rem 1.5rem;
-// height: 10rem;
 background-color: ${({ theme }) => theme.colors.bg};
 display: flex;
 justify-content: space-between;
