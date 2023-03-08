@@ -15,8 +15,8 @@ import { GlobalStyle } from './GlobalStyle'
 const App = () => {
   const theme = {
     colors: {
-      heading: "rgb(24 24 29)",
-      text: "rgb(24 24 29)",
+      heading: "rgb(30 26 35)",
+      text: "rgb(20 20 20)",
       white: "#fff",
       black: " #212529",
       helper: "#8490ff",
