@@ -37,7 +37,7 @@ padding: 9rem 0;
   justify-content: center;
 }
 .btn {
-  max-width: 16rem;
+  max-width: 12rem;
 }
 .hero-top-data {
   text-transform: uppercase;
