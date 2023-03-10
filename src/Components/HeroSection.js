@@ -3,13 +3,13 @@ import { NavLink } from "react-router-dom";
 import { Button } from "../Styles/Button";
 import styled from "styled-components";
 
-const HeroSection = () => {
+const HeroSection = (props) => {
   return (
     <Wrapper>
     <div className="container grid grid-two-column">
       <div className="section-hero-data">
         <p className="hero-top-data">THIS IS ME</p>
-        <h1 className="hero-heading">WAJID MOHAMMED</h1>
+        <h1 className="hero-heading">{props.name}</h1>
         <p className="hero-para">
          I'M Mohammed Wajid.Frontend web developer, content creator, learning and building websites
         </p>
@@ -21,7 +21,7 @@ const HeroSection = () => {
       {/* for image  */}
       <div className="section-hero-image">
         <picture>
-          <img src="./images/hero.svg" alt="hero image" className="hero-img " />
+          <img src= {props.image} alt="hero image" className="hero-img " />
         </picture>
       </div>
     </div>
@@ -47,12 +47,14 @@ padding: 9rem 0;
 }
 .hero-heading {
   text-transform: uppercase;
-  font-size: 3.4rem;
+  font-size: 2.8rem;
 }
 .hero-para {
   margin-top: 1.5rem;
-  margin-bottom: 3.4rem;
-  max-width: 60rem;
+  margin-bottom: 2.4rem;
+  max-width: 50rem;
+  font-size: 1.4rem;
+
 }
 .section-hero-image {
   display: flex;
@@ -63,7 +65,7 @@ picture {
   text-align: center;
 }
 .hero-img {
-  max-width: 80%;
+  max-width: 60%;
 }
 @media (max-width: ${({ theme }) => theme.media.mobile}) {
   .grid {

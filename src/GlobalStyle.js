@@ -47,7 +47,8 @@ h2 {
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  margin-left:7rem;
+  margin-left:10rem;
+  margin-right:10rem;
 }
 .grid {
   display: grid;
