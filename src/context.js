@@ -5,7 +5,7 @@
 // provider
 // consumer
 
-import React,{ useContext } from "react";
+import React from "react";
 
 
 
@@ -15,9 +15,5 @@ const AppProvider = ({children}) => {
 <AppContext.Provider value="wajid mohammed">{children}</AppContext.Provider>;
 };
 
-// globalcustom hook
-const useGlobalContext = () => {
-    return useContext(AppContext);
-};
 
-export { AppContext, AppProvider, useGlobalContext };
+export { AppContext, AppProvider };
