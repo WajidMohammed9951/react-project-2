@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Services = () => {
+const Service = () => {
   let service_details = [
     {
     id: 'e1',
@@ -39,6 +39,9 @@ const Services = () => {
     description:'Wajid Codefest, best courses are available'
   }
   ]
+  return (
+
+  )
 }
 
 export default Services
