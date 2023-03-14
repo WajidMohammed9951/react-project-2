@@ -49,6 +49,7 @@ h2 {
   margin: 0 auto;
   margin-left:10rem;
   margin-right:10rem;
+  padding:2rem 2rem;
 }
 .grid {
   display: grid;
@@ -62,6 +63,12 @@ h2 {
 }
 .grid-four-column{
    grid-template-columns: 1fr 1.2fr .5fr .8fr ;
+}
+.common-heading {
+  font-size: 3.8rem;
+  font-weight: 600;
+  margin-bottom: 6rem;
+  text-transform: capitalize;
 }
 
 `;

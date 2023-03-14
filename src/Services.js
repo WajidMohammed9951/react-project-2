@@ -59,7 +59,7 @@ const Services = () => {
                 <h3>{title}</h3>
                 <p>{description}</p>
                 <NavLink to="/Services">
-                  <Button>Read More</Button>
+                  <Button className="btn">Read More</Button>
                 </NavLink>
 
               </div>
@@ -86,13 +86,14 @@ background-color: ${({ theme }) => theme.colors.bg};
 .card {
   border: 0.1rem solid rgb(170 170 170 / 40%);
   .card-data {
-    padding:0 1rem;
+    padding:0.5rem 0.5rem;
+    text-align:center;
     
   }
   h3 {
     margin: 2rem 0;
     font-weight: 300;
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   .btn {
     margin: 2rem auto;
@@ -135,9 +136,9 @@ figure {
     transform: scale(1.2);
   }
   img {
-    max-width: 60%;
+    max-width: 80%;
     margin-top: 1.5rem;
-    height: 20rem;
+    height: 15rem;
     transition: all 0.2s linear;
   }
 }
