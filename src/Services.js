@@ -81,10 +81,13 @@ background-color: ${({ theme }) => theme.colors.bg};
 .container {
   max-width: 120rem;
 }
+
+
 .card {
   border: 0.1rem solid rgb(170 170 170 / 40%);
   .card-data {
-    padding: 0 2rem;
+    padding:0 1rem;
+    
   }
   h3 {
     margin: 2rem 0;
