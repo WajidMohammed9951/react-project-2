@@ -18,7 +18,7 @@ const Contact = () => {
 
        <div className='container'>
         <div className='contact-form'>
-        <form action='#' method='POST' className='contact-inputs'>
+        <form action='https://formspree.io/f/xbjekqrn' method='POST' className='contact-inputs'>
         <input
               type="text"
               name="username"
