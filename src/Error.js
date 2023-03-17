@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import { Button } from './Styles/Button'
 
@@ -6,8 +7,9 @@ const Error = () => {
   return (
     <Wrapper className='section'>
   <img src="../images/error.vg/error.jpg" alt="error"  className='image-error'/>
-
+ <NavLink to="/">
   <Button className='btn'>go back</Button>
+  </NavLink>
     </Wrapper>
   )
 }
