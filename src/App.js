@@ -9,7 +9,7 @@ import Header from './Components/Header'
 // import NavBar from './Components/NavBar'
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from './GlobalStyle'
-
+import Error from './Error'
 
 
 const App = () => {
