@@ -30,7 +30,6 @@ margin-top:0rem;
 }
 .image-error{
 max-width:50%;
-margin-top:0rem;
 
 }
 
