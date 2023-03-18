@@ -13,6 +13,9 @@ const Error = () => {
     </Wrapper>
   )
 }
+
+
+
 const Wrapper = styled.section`
 padding: 9rem 0;
 display: flex;
