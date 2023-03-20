@@ -66,7 +66,7 @@ picture {
   text-align: center;
 }
 .hero-img {
-  max-width: 60%;
+  max-width: 75%;
 }
 @media (max-width: ${({ theme }) => theme.media.mobile}) {
   .grid {
