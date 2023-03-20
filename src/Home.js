@@ -1,5 +1,6 @@
 import React from 'react'
 import HeroSection from './Components/HeroSection'
+import Services from "./Services"
 
 const Home = () => {
 const data = {
@@ -7,7 +8,10 @@ const data = {
   image: "./images/hero.svg",
 };
   return (
+    <>
     <HeroSection {... data}/>
+    <Services/>
+    </>
   )
 }
 

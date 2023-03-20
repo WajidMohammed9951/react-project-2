@@ -55,12 +55,8 @@ const Footer = () => {
               <div>
                 <FaInstagram className="icons" />
               </div>
-              <div>
-                <a
-                  href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                  target="_blank">
+              <div>                
                   <FaYoutube className="icons" />
-                </a>
               </div>
             </div>
           </div>
@@ -77,7 +73,7 @@ const Footer = () => {
           <hr />
           <div className="container grid grid-two-column">
             <p>
-              @{new Date().getFullYear()} ThapaTechnical. All Rights Reserved
+              @{new Date().getFullYear()} Wajid Mohammed. All Rights Reserved
             </p>
             <div>
               <p>PRIVACY POLICY</p>
