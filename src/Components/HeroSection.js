@@ -3,6 +3,9 @@ import { NavLink } from "react-router-dom";
 import { Button } from "../Styles/Button";
 import styled from "styled-components"; 
 
+
+
+
 const HeroSection = ({name, image}) => {
 
   return (
