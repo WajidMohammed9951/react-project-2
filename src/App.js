@@ -1,3 +1,7 @@
+
+
+
+
 import React from 'react'
 import About from './About'
 import Contact from './Contact'
@@ -10,6 +14,7 @@ import Header from './Components/Header'
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from './GlobalStyle'
 import Error from './Error'
+import GoToTop from './Components/GoToTop'
 
 
 const App = () => {
@@ -42,6 +47,7 @@ const App = () => {
       <GlobalStyle/>
    <BrowserRouter>
    <Header/>
+   <GoToTop/>
    <Routes>
     <Route path='/' element= {<Home/>}/>
     <Route path='/about' element= {<About/>}/>
